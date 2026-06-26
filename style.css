@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    padding: 20px 40px;
+    padding: 5px 40px;
     border-bottom: 2px solid #D9A05B; /* Linha divisória ocre */
     background-color: #FDF9EE;
 }
