@@ -17,7 +17,7 @@ body {
 /* CABEÇALHO */
 .main-header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
     border-bottom: 2px solid #D9A05B; /* Linha divisória ocre */
@@ -55,6 +55,35 @@ body {
 }
 
 
+.icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ÁREA HERO (CONTEÚDO PRINCIPAL) */
+.hero-section {
+    position: relative;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.hero-title-container {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+
 .main-title {
     font-family: 'Spicy Rice', serif; /* Fonte block/retro volumosa */
     font-size: 110px;
@@ -75,7 +104,6 @@ body {
     margin-left: 180px;
     text-align: left;
 }
-
 
 
 
