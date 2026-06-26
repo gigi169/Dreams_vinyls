@@ -1,1 +1,165 @@
+/* RESET E CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FDF9EE; /* Cor de fundo creme suave */
+    color: #2B1608; /* Marrom escuro para contrastar suavemente */
+    font-family: 'Short Stack', cursive, sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* CABEÇALHO */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 2px solid #D9A05B; /* Linha divisória ocre */
+    background-color: #FDF9EE;
+}
+
+
+
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+
+.nav-menu a:hover {
+    color: #D96B27;
+}
+
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ÁREA HERO (CONTEÚDO PRINCIPAL) */
+.hero-section {
+    position: relative;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.hero-title-container {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+
+.main-title {
+    font-family: 'Spicy Rice', serif; /* Fonte block/retro volumosa */
+    font-size: 110px;
+    color: #F4BE2C; /* Amarelo principal */
+    text-shadow: 4px 4px 0px #702517; /* Sombra sólida marrom avermelhada */
+    line-height: 0.9;
+    letter-spacing: 2px;
+}
+
+
+.cursive-subtitle {
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    color: #2B1608;
+    line-height: 0.85;
+    transform: rotate(-10deg);
+    margin-top: 15px;
+    margin-left: 180px;
+    text-align: left;
+}
+
+
+
+
+/* SEÇÃO DE GUIAS */
+.guides-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #FDF9EE;
+}
+
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    color: #2B1608;
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.guide-button {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    background-color: #D4692F; /* Laranja queimado dos botões */
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+
+.guide-button:hover {
+    transform: translateY(-3px);
+    background-color: #BE5922;
+}
+
+
+/* RODAPÉ */
+.main-footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #2B1608;
+    color: #FDF9EE;
+    font-size: 14px;
+    margin-top: 50px;
+}
 
